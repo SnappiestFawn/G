@@ -1,0 +1,16 @@
+var input = prompt('Enter a car: BMW, Ford, or Peugeot');
+var car;
+switch(input){
+  case 0: 
+    car = "German Car";
+    break;
+  case 1:
+    car = "American Car";
+    break;
+  case 2:
+    car = "French Car";
+    break;
+  default:
+    car = "Unknown Car Name"
+   break;
+}
