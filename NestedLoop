@@ -1,0 +1,5 @@
+var multiplier = 0;
+for (var i = 0; i < 11; i++) {
+  for (multiplier = 0; multiplier < 11; multiplier ++){
+    console.log(i + ' x ' + multiplier + ' = ' + (i * multiplier));
+  }}
