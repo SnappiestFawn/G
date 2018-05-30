@@ -1,0 +1,9 @@
+function isEvenAndGreaterThanTen(num) {
+  // your code here
+var z = num%2
+if (z == 0){
+  if (num>10){
+    return true;}}
+else{
+  return false;}
+}
