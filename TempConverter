@@ -1,0 +1,11 @@
+function cToF(celsius) {
+var y = (celsius * (9/5) + 32);
+var mess1 = celsius + '\xB0' + 'C is '+ y + '\xB0'+ 'F.';
+console.log(mess1)
+}
+
+function fToC(fahrenheit) {
+var x = ((5/9)*(fahrenheit - 32));
+var mess2 = fahrenheit + '\xB0' + 'F is '+ x + '\xB0'+ 'C.';
+console.log(mess2)
+}
