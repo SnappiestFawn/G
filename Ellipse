@@ -1,0 +1,10 @@
+var pi = Math.PI
+
+function ellipseArea(r1,r2){
+  a = (r1*r2*pi)
+  return a
+}
+function ellipsePerimeter(r1,r2){
+  p = 2*pi*Math.sqrt(((r1^2)+(r2^2))/2)
+  return p
+}
